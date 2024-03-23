@@ -1,0 +1,93 @@
+.mapTitle{
+    font-size: 40px;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.mapSubtitle{
+    font-size:35px;
+
+    margin-bottom: 2rem;
+
+    text-align: center;
+}
+
+.maps{
+    background-color: #EDFCED;
+
+    padding: 2rem;
+
+    text-align: center;
+}
+
+/*Form */
+
+.form{
+    background-image: url(/src/assets/acampamentoEstrelado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    color: #ffffff;
+
+    padding: 2rem;
+    text-align: center;
+}
+
+.formTitle{
+    color: #ffffff;
+
+    font-size: 30px;
+
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.formGroup{
+    margin-bottom: 2rem;
+}
+
+.labelForm{
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-right: 1rem;
+}
+
+.inputForm{
+    background-color: rgba(255, 255, 255, 0.0);
+
+    padding: 1rem;
+}
+
+.inputForm:hover{
+    border-color: #1d6899;
+    box-shadow: 0 0 10px #1d6899;
+}
+
+.inputForm:focus{
+    border-color: #719ece;
+    box-shadow: 0 0 10px #719ece;
+
+    outline: none !important;
+}
+
+.buttonForm{
+    background-color: #1d6899;
+
+    border-radius: 5px;
+
+    color: #ffffff;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    padding: 1rem;
+}
+
+.buttonForm:hover{
+    background-color: #43A33F;
+
+    cursor: pointer;
+}

@@ -1,0 +1,165 @@
+
+
+/* Banner */
+
+.banner{
+    background-image: url(/src/assets/img-banner.jpg);
+    background-size: cover;
+    background-position: center;
+
+    padding: 8rem;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.5);
+    
+    padding: 2rem;
+}
+
+.titleBanner{
+    color: #D3EC02;
+
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.text p {
+    color: #D3EC02;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*Text */
+
+.textContainer{
+    background-image: linear-gradient(to right top, #2494de, #238dd2, #2386c7, #227fbb, #2278b0, #2070a5, #1d6899, #1b608e, #165580, #104a72, #0a4064, #043657);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8rem;
+}
+
+.titleText{
+    color: #ffffff;
+
+    font-size: 38px;
+
+    margin-bottom: 2rem;
+}
+
+.textContainer p {
+    color: #ffffff;
+
+    font-size: 20px;
+}
+
+.buttonWhatsapp{
+    background-color: #25D366;
+    border-radius: 5px;
+
+    font-size: 23px;
+
+    margin-top: 2.5rem;
+
+    padding: 0.8rem;
+}
+
+.buttonWhatsapp a{
+    color: #ffffff;
+
+    font-weight: 600;
+
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.iconWhatsapp{
+    color: #ffffff;
+
+    font-size: 23px;
+}
+
+/* Galery */
+
+.galery{
+    background-color: #E3F6BC;
+
+    padding: 1rem;
+}
+
+.galeryTitle{
+
+    font-size: 40px;
+    font-weight: bold;
+
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.galeryContainer{
+    background-color: #F0FADB;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1rem;
+}
+
+.card{
+    background-color: #242C11;
+
+    color: #ffffff;
+
+    padding: 1rem;
+
+    width: 200px;
+}
+
+.cardTitle{
+
+    font-size: 20px;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.cardDesciption{
+    font-size: 18px;
+    font-weight: 500;
+
+    width: 200px;
+}
+
+/*Video */
+
+.titleVideo{
+    font-size: 35px;
+
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 34px;
+    font-weight: 600;
+
+    margin-bottom: 2rem;
+
+    text-align: center;
+}
+
+.videoSection{ 
+    background-color: #E4FBF1;
+
+    text-align: center;
+}
+

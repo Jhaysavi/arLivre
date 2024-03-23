@@ -1,0 +1,38 @@
+.menu{
+    background-color: #227fbb;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.menuNav{
+    display: flex;
+
+    list-style: none;
+}
+
+.menuItem{
+    color:#F2FF88;
+
+    font-size: 23px;
+    
+    text-decoration: none;
+}
+
+.menuItem{
+    margin-right: 1rem;
+}
+
+.logo{
+    height: 80px;
+    width: 100px;
+}
+
+.menuItem a:hover{
+    font-size: 25px;
+
+    transform: 1s;
+}
