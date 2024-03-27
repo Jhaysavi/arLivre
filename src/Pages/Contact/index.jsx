@@ -18,7 +18,7 @@ function Contact() {
             </section>
 
             <section className={style.form}>
-                <h2 className={style.formTitle}>Preencha suas informações para entrarmos em contato com você!!</h2>
+                <h2 className={style.formTitle}>Cadastre-se para Ofertas Exclusivas!!</h2>
                 <form action="#">
                     <fieldset className={style.formGroup}>
                         <label className={style.labelForm} htmlFor="name">Nome</label>

@@ -1,8 +1,6 @@
-
-
 /* Banner */
 
-.banner{
+.banner {
     background-image: url(/src/assets/img-banner.jpg);
     background-size: cover;
     background-position: center;
@@ -11,18 +9,18 @@
 
 }
 
-.text{
+.text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     background: rgba(0, 0, 0, 0.5);
-    
+
     padding: 2rem;
 }
 
-.titleBanner{
+.titleBanner {
     color: #D3EC02;
 
     font-size: 40px;
@@ -38,7 +36,7 @@
 
 /*Text */
 
-.textContainer{
+.textContainer {
     background-image: linear-gradient(to right top, #2494de, #238dd2, #2386c7, #227fbb, #2278b0, #2070a5, #1d6899, #1b608e, #165580, #104a72, #0a4064, #043657);
 
     display: flex;
@@ -49,7 +47,7 @@
     padding: 8rem;
 }
 
-.titleText{
+.titleText {
     color: #ffffff;
 
     font-size: 38px;
@@ -63,7 +61,7 @@
     font-size: 20px;
 }
 
-.buttonWhatsapp{
+.buttonWhatsapp {
     background-color: #25D366;
     border-radius: 5px;
 
@@ -74,7 +72,7 @@
     padding: 0.8rem;
 }
 
-.buttonWhatsapp a{
+.buttonWhatsapp a {
     color: #ffffff;
 
     font-weight: 600;
@@ -83,21 +81,57 @@
     text-decoration: none;
 }
 
-.iconWhatsapp{
+.iconWhatsapp {
     color: #ffffff;
 
     font-size: 23px;
 }
 
+.titleAbout {
+    color: #D3EC02;
+
+    font-size: 38px;
+
+    margin: 4rem 0 2rem 0;
+}
+
+/*Why chose*/
+
+.reasonContainer {
+    background-image: linear-gradient(to right top, #5353d3, #5b5bd5, #6262d8, #6a6ada, #7171dc, #7575df, #7a7ae1, #7e7ee4, #8080e8, #8282eb, #8484ef, #8686f3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.reasonTitle{
+    color: #ffffff;
+
+    font-size: 38px;
+
+    margin: 0 0 2rem 0;
+
+}
+
+.list{
+    color: #ffffff;
+
+    font-size: 20px;
+}
+
 /* Galery */
 
-.galery{
+.galery {
     background-color: #E3F6BC;
 
     padding: 1rem;
 }
 
-.galeryTitle{
+.galeryTitle {
 
     font-size: 40px;
     font-weight: bold;
@@ -106,7 +140,7 @@
     text-align: center;
 }
 
-.galeryContainer{
+.galeryContainer {
     background-color: #F0FADB;
 
     display: flex;
@@ -115,7 +149,7 @@
     padding: 1rem;
 }
 
-.card{
+.card {
     background-color: #242C11;
 
     color: #ffffff;
@@ -125,7 +159,7 @@
     width: 200px;
 }
 
-.cardTitle{
+.cardTitle {
 
     font-size: 20px;
     font-weight: 600;
@@ -133,7 +167,7 @@
     text-align: center;
 }
 
-.cardDesciption{
+.cardDesciption {
     font-size: 18px;
     font-weight: 500;
 
@@ -142,13 +176,13 @@
 
 /*Video */
 
-.titleVideo{
+.titleVideo {
     font-size: 35px;
 
     text-align: center;
 }
 
-.subtitle{
+.subtitle {
     font-size: 34px;
     font-weight: 600;
 
@@ -157,9 +191,8 @@
     text-align: center;
 }
 
-.videoSection{ 
+.videoSection {
     background-color: #E4FBF1;
 
     text-align: center;
 }
-

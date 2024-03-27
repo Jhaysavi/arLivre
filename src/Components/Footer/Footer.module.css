@@ -1,3 +1,25 @@
+
+.contact{
+    background-image: linear-gradient(to right top, #5353d3, #5b5bd5, #6262d8, #6a6ada, #7171dc, #7575df, #7a7ae1, #7e7ee4, #8080e8, #8282eb, #8484ef, #8686f3);
+
+    padding: 2rem;
+}
+
+.title{
+    color: #ffffff;
+
+    font-size: 24px;
+
+    margin-bottom: 1.8rem;
+}
+
+.list{
+    color: #ffffff;
+
+    font-size: 19px;
+    font-weight: bold;
+}
+
 .footer{
     background-color: #165580;
 

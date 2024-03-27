@@ -4,7 +4,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 function Home() {
     return (
         <>
-            
+
             <main>
                 <section className={style.banner}>
                     <div className={style.text}>
@@ -21,9 +21,23 @@ function Home() {
                     <h2 className={style.titleText}>Descubra o Mundo Natural</h2>
                     <p>Deseja sair da rotina e vivenciar novas experiências? Junte-se a nós em nossas expedições emocionantes!</p>
                     <button className={style.buttonWhatsapp}>
-                        <a href="https://www.whatsapp.com/">Clique aqui!</a>
+                        <a href="https://www.whatsapp.com/" target='_blank'>Clique aqui!</a>
                         <IoLogoWhatsapp className={style.iconWhatsapp} />
                     </button>
+                    <h2 className={style.titleAbout}>Sobre Nós</h2>
+                    <p>
+                        Somos uma equipe de entusiastas ao ar livre apaixonados por explorar o mundo natural. Nossa experiência e conhecimento nos permitem oferecer aventuras seguras e emocionantes para todos os níveis de habilidade.
+                    </p>
+                </section>
+
+                <section className={style.reasonContainer}>
+                    <h2 className={style.reasonTitle}>Por que Nos Escolher?</h2>
+                    <ul className={style.list}>
+                        <li>Experiência: Mais de uma década levando pessoas a destinos incríveis.</li>
+                        <li>Segurança: Guias altamente treinados e medidas de segurança rigorosas.</li>
+                        <li>Diversidade: Expedições para todas as idades e níveis de habilidade.</li>
+                        <li>Sustentabilidade: Comprometidos com a preservação do meio ambiente.</li>
+                    </ul>
                 </section>
 
                 <section className={style.galery}>
@@ -78,7 +92,7 @@ function Home() {
                 </section>
             </main>
 
-            
+
         </>
     );
 }
