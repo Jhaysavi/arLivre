@@ -6,3 +6,9 @@
     font: inherit;
     vertical-align: baseline;
 }
+
+body{
+    background: linear-gradient(#779238, #748D37, #242C11);
+
+    font-family: "Montserrat", sans-serif;
+}

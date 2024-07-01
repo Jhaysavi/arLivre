@@ -15,11 +15,11 @@ function Footer() {
             </section>
             <footer className={style.footer}>
                 <div className={style.logoFooter}>
-                    <img src="logo-ar-livre 1.png" className={style.logo} alt="Logo aventura ao ar livre" />
+                    <img src="logo.png" className={style.logo} alt="Logo aventura ao ar livre" />
                     <h6>Aventuras ao ar livre</h6>
                 </div>
 
-                <small><FaRegCopyright /> Desenvolvido por Sonia Janara</small>
+                <small><FaRegCopyright /> Desenvolvido por Sonia Janara. Todos os direitos reservados.</small>
 
             </footer>
         </>

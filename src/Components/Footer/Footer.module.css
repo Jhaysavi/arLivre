@@ -1,6 +1,8 @@
 
 .contact{
-    background-image: linear-gradient(to right top, #5353d3, #5b5bd5, #6262d8, #6a6ada, #7171dc, #7575df, #7a7ae1, #7e7ee4, #8080e8, #8282eb, #8484ef, #8686f3);
+    background-color: #465123;
+
+    border-radius: 20px;
 
     padding: 2rem;
 }
@@ -21,9 +23,7 @@
 }
 
 .footer{
-    background-color: #165580;
-
-    color: #ffffff;
+    background-color: #ffffff;
 
     text-align: center;
 }

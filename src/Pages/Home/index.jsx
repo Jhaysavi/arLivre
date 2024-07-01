@@ -82,7 +82,7 @@ function Home() {
                     <iframe
                         width="560"
                         height="315"
-                        src="https://www.youtube.com/embed/cxIn8f4QWjA?si=JkkdN1Z5oK4VdXjp"
+                        src="https://www.youtube.com/embed/gWvXwzVVBBc?si=1Xa95mdmKvtBOLPJ"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
