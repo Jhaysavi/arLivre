@@ -1,34 +1,29 @@
+import Slider from 'react-slick';
 import style from './home.module.css';
 import { IoLogoWhatsapp } from "react-icons/io";
 
 function Home() {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay:true,
+        speed: 2000,
+        autoplaySpeed: 4000,
+    };
+
     return (
         <>
-
+            <Slider {...settings} className={style.slide}>
+                <img src="/src/assets/macchuPicchu.jpg" className={style.carouselImg} alt="Imagem de macchu picchu" />
+                <img src="/src/assets/suica.jpg" className={style.carouselImg} alt="Imagem de montanhas na suiça" />
+                <img src="/src/assets/suica2.jpg" className={style.carouselImg} alt="Imagem da suiça" />
+                <img src="/src/assets/grandCanyon.jpg" className={style.carouselImg} alt="Imagem do Grand Canyon" />
+                <img src="/src/assets/everest.jpg" className={style.carouselImg} alt="Imagem do pico Everest" />
+            </Slider>
             <main>
-                <section className={style.banner}>
-                    <div className={style.text}>
-                        <h1 className={style.titleBanner}>Aventuras ao Ar Livre</h1>
-                        <p>Explore a Natureza como Nunca Antes </p>
-
-                        <p> Nossa missão é proporcionar experiências ao ar livre que conectam as pessoas à natureza, promovendo aventuras emocionantes e momentos inesquecíveis.</p>
-                        <p> Seja explorando trilhas, escalando montanhas, acampando sob as estrelas ou navegando em rios selvagens, estamos aqui para guiá-lo em sua jornada de descoberta.</p>
-                    </div>
-
-                </section>
-
-                <section className={style.textContainer}>
-                    <h2 className={style.titleText}>Descubra o Mundo Natural</h2>
-                    <p>Deseja sair da rotina e vivenciar novas experiências? Junte-se a nós em nossas expedições emocionantes!</p>
-                    <button className={style.buttonWhatsapp}>
-                        <a href="https://www.whatsapp.com/" target='_blank'>Clique aqui!</a>
-                        <IoLogoWhatsapp className={style.iconWhatsapp} />
-                    </button>
-                    <h2 className={style.titleAbout}>Sobre Nós</h2>
-                    <p>
-                        Somos uma equipe de entusiastas ao ar livre apaixonados por explorar o mundo natural. Nossa experiência e conhecimento nos permitem oferecer aventuras seguras e emocionantes para todos os níveis de habilidade.
-                    </p>
-                </section>
 
                 <section className={style.reasonContainer}>
                     <h2 className={style.reasonTitle}>Por que Nos Escolher?</h2>
@@ -39,7 +34,6 @@ function Home() {
                         <li>Sustentabilidade: Comprometidos com a preservação do meio ambiente.</li>
                     </ul>
                 </section>
-
                 <section className={style.galery}>
                     <h2 className={style.galeryTitle}>Nossas aventuras</h2>
                     <div className={style.galeryContainer}>
@@ -75,6 +69,22 @@ function Home() {
                     </div>
 
                 </section>
+
+                <section className={style.textContainer}>
+                    <h2 className={style.titleText}>Descubra o Mundo Natural</h2>
+                    <p>Deseja sair da rotina e vivenciar novas experiências? Junte-se a nós em nossas expedições emocionantes!</p>
+                    <h2 className={style.titleAbout}>Sobre Nós</h2>
+                    <p>
+                        Somos uma equipe de entusiastas ao ar livre apaixonados por explorar o mundo natural. Nossa experiência e conhecimento nos permitem oferecer aventuras seguras e emocionantes para todos os níveis de habilidade.
+                    </p>
+
+                    <button className={style.buttonWhatsapp}>
+                        <a href="https://www.whatsapp.com/" target='_blank'>Clique aqui!</a>
+                        <IoLogoWhatsapp className={style.iconWhatsapp} />
+                    </button>
+                </section>
+
+
 
                 <section className={style.videoSection}>
                     <h3 className={style.titleVideo}>Próxima Aventura?</h3>

@@ -1,69 +1,44 @@
-/* Banner */
+/*Carousel*/
 
-.banner {
-    background-image: url(/src/assets/img-banner.jpg);
-    background-size: cover;
-    background-position: center;
-
-    padding: 8rem;
-
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background: rgba(0, 0, 0, 0.5);
-
-    padding: 2rem;
-}
-
-.titleBanner {
-    color: #D3EC02;
-
-    font-size: 40px;
-    font-weight: bolder;
-}
-
-.text p {
-    color: #D3EC02;
-
-    font-size: 20px;
-    font-weight: 600;
+.carouselImg{
+    max-height: 600px;
 }
 
 /*Text */
 
 .textContainer {
-    background-image: linear-gradient(to right top, #2494de, #238dd2, #2386c7, #227fbb, #2278b0, #2070a5, #1d6899, #1b608e, #165580, #104a72, #0a4064, #043657);
+    background-color: #97A149;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    margin: 40px;
+
     padding: 8rem;
 }
 
 .titleText {
-    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
 
-    font-size: 38px;
+    font-size: 28px;
+    font-weight: 500;
 
     margin-bottom: 2rem;
 }
 
 .textContainer p {
-    color: #ffffff;
-
     font-size: 20px;
 }
 
 .buttonWhatsapp {
-    background-color: #25D366;
-    border-radius: 5px;
+    background-color: #465123;
+    border-radius: 20px;
+    border: 2px solid #D69723;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
     font-size: 23px;
 
@@ -88,9 +63,8 @@
 }
 
 .titleAbout {
-    color: #D3EC02;
-
-    font-size: 38px;
+    font-size: 28px;
+    font-weight: 500;
 
     margin: 4rem 0 2rem 0;
 }
@@ -98,51 +72,56 @@
 /*Why chose*/
 
 .reasonContainer {
-    background-image: linear-gradient(to right top, #5353d3, #5b5bd5, #6262d8, #6a6ada, #7171dc, #7575df, #7a7ae1, #7e7ee4, #8080e8, #8282eb, #8484ef, #8686f3);
+    background-color: #97A149;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    margin: 40px;
+
     padding: 2rem;
 }
 
 .reasonTitle{
-    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
 
-    font-size: 38px;
+    font-size: 28px;
+    font-weight: 500;
 
     margin: 0 0 2rem 0;
-
 }
 
 .list{
-    color: #ffffff;
-
     font-size: 20px;
 }
 
 /* Galery */
 
 .galery {
-    background-color: #E3F6BC;
+    background-color: #97A149;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    margin: 40px;
 
     padding: 1rem;
 }
 
 .galeryTitle {
+    text-shadow: 1px 1px 1px #000;
 
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 500;
 
     margin-bottom: 2rem;
     text-align: center;
 }
 
 .galeryContainer {
-    background-color: #F0FADB;
-
     display: flex;
     justify-content: space-around;
 
@@ -151,6 +130,8 @@
 
 .card {
     background-color: #242C11;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
 
     color: #ffffff;
 
@@ -160,6 +141,7 @@
 }
 
 .cardTitle {
+    text-shadow: 1px 1px 1px #000;
 
     font-size: 20px;
     font-weight: 600;
@@ -177,12 +159,16 @@
 /*Video */
 
 .titleVideo {
+    text-shadow: 1px 1px 1px #000;
+
     font-size: 35px;
 
     text-align: center;
 }
 
 .subtitle {
+    text-shadow: 1px 1px 1px #000;
+    
     font-size: 34px;
     font-weight: 600;
 
@@ -192,7 +178,11 @@
 }
 
 .videoSection {
-    background-color: #E4FBF1;
+    background-color: #97A149;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    margin: 40px;
 
     text-align: center;
 }

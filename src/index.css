@@ -1,3 +1,6 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 *{
     margin: 0;
     padding: 0;
@@ -11,4 +14,6 @@ body{
     background: linear-gradient(#779238, #748D37, #242C11);
 
     font-family: "Montserrat", sans-serif;
+
+    overflow-x: hidden;
 }
