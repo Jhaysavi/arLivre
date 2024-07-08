@@ -14,8 +14,6 @@
 }
 
 .maps{
-    background-color: #EDFCED;
-
     padding: 2rem;
 
     text-align: center;
@@ -29,8 +27,12 @@
     background-size: cover;
     background-position: bottom;
 
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
     color: #ffffff;
 
+    margin: 100px;
     padding: 2rem;
     text-align: center;
 }
@@ -74,7 +76,7 @@
 }
 
 .buttonForm{
-    background-color: #1d6899;
+    background-color: #C6CC5D;
 
     border-radius: 5px;
 
