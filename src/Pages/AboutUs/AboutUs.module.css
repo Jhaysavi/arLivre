@@ -1,14 +1,58 @@
-.container {
-    background-image: linear-gradient(to bottom, #ffa854, #ffa95f, #ffab69, #ffac73, #ffae7c, #ffb085, #ffb28d, #ffb495, #ffb79e, #ffb9a7, #ffbdaf, #ffc0b7);
+
+
+/*Banner */
+
+.banner{
+    background-image: url('/src/assets/macchuPicchu.jpg');
+    background-size: cover;
+
+    height: 600px;
+
+    margin-top: 2rem;
+}
+
+.bannerText{
+    background: rgba(0, 0, 0, 0.5);
+
     color: #ffffff;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 600px;
+}
+
+.bannerTitle{
+    font-size: 40px;
+    font-weight: 500;
+
+    margin-bottom: 2rem;
+}
+
+.bannerText p{
+    font-size: 25px;
+
+    max-width: 500px;
+}
+
+.textContainer{
+    background-color: #97A149;
+    border-radius: 20px;
+
+    margin: 40px;
     padding: 2rem;
 }
 
-.title {
+.finalText{
+    margin: 45px;
+}
 
-    font-size: 40px;
-    font-weight: bold;
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
 
     margin-bottom: 2rem;
 
