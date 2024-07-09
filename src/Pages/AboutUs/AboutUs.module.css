@@ -86,3 +86,19 @@
     height: 400px;
     width: 400px;
 }
+
+/*Responsive*/
+
+@media screen and (max-width: 540px){
+    .bannerText p{
+        font-size: 20px;
+    }
+
+    .textContainer {
+        margin: 2rem 0 0 0;
+    }
+
+    .img {
+       width: 100%;
+    }
+}

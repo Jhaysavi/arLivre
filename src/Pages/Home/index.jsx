@@ -4,7 +4,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 function Home() {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 2000,
         slidesToShow: 1,

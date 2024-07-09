@@ -29,9 +29,15 @@
     text-align: center;
 }
 
-.logoFooter{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 2rem;
+
+/*Responsive*/
+
+@media screen and (max-width: 785px) {
+    .contact {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .logo {
+        max-width: 100%;
+    }
 }
